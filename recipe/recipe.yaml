@@ -24,16 +24,15 @@ requirements:
     - jtango-logback
 
 tests:
+  - package_contents:
+      files:
+        - share/java/Jive.jar
+        - if: unix
+          then: bin/jive
+        - if: win
+          then: Scripts/jive.bat
   - script:
       - jive -h
-      - if: unix
-        then: test -f ${PREFIX}/share/java/Jive.jar
-      - if: unix
-        then: test -f ${PREFIX}/bin/jive
-      - if: win
-        then: if not exist %PREFIX%\share\java\Jive.jar exit 1
-      - if: win
-        then: if not exist %PREFIX%\Scripts\jive.bat exit 1
 
 about:
   license: GPL-3.0-or-later
