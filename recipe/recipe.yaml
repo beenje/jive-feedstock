@@ -42,7 +42,7 @@ about:
   summary: Jive is a standalone JAVA application designed to browse and edit the static TANGO database.
   homepage: https://www.tango-controls.org
   repository: https://gitlab.com/tango-controls/jive
-  documentation: https://tango-controls.readthedocs.io/en/latest/tools-and-extensions/built-in/jive/index.html
+  documentation: https://tango-controls.readthedocs.io/projects/jive/en/latest/index.html
 
 extra:
   recipe-maintainers:
