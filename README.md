@@ -11,7 +11,7 @@ Summary: Jive is a standalone JAVA application designed to browse and edit the s
 
 Development: https://gitlab.com/tango-controls/jive
 
-Documentation: https://tango-controls.readthedocs.io/en/latest/tools-and-extensions/built-in/jive/index.html
+Documentation: https://tango-controls.readthedocs.io/projects/jive/en/latest/index.html
 
 Current build status
 ====================
